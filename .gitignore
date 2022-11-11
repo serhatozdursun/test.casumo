@@ -1,2 +1,12 @@
 # Project exclude paths
 /target/
+
+.idea
+
+libs
+
+*.iml
+
+logs
+
+report
