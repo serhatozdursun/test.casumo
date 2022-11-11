@@ -14,8 +14,6 @@ public class GetHelper {
         Response response = ApiHelper.getInstance()
                 .getRequestSpecification()
                 .urlEncodingEnabled(false)
-                .log()
-                .all()
                 .get()
                 .then()
                 .extract()
