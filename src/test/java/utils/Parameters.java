@@ -14,12 +14,7 @@ public class Parameters {
     Properties systemProp;
     protected static final Logger log = LogManager.getLogger(Parameters.class);
     static final String PROP_FILE_NAME = "config.properties";
-    private String slackToken;
-    private String connectionString;
-    private String dbClass;
-    private String dbPassword;
-    private String dbUser;
-    private String webhook;
+    
 
     public static Parameters getInstance() {
         if (instance == null) {
